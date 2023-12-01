@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar{
+    padding-top: 20px;
+    position: fixed;
+    z-index: 300;
+    transition: background-color .4s linear;
+    top: 0px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.09);
+    display: block;
+    width: 100%;
+
+}
+.nav{
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+}
+.logo{
+    float: left;
+    width:30% ;
+}
+.logo img{
+    width: 30%;
+}
+.clrfix{
+clear: both;
+}
+.nav ul li {
+    display: inline-block;
+    width: 80px;
+}
+.nav ul li a {
+    color:#FFF;
+    font-size: 20px;
+}
+.header-content{
+    margin-top: 50px;
+    color: #FFF;
+}
+.header-content h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "Alegreya";
+}
+.header-content p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Dancing Script";
+}
+.header-content button{
+    padding: 15px 30px;
+    font-family: "Alegreya Sans";
+}
+.header-content .learnmore{
+    background-color: #c1ab84;
+    color: #FFF;
+    cursor: pointer;
+}
+.learnmore:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .4);
+    height: 100vh;
+}
+.About{
+    height: auto;
+
+}
+
+.left-content{
+    width: 20%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+.right-content{
+    width: 40%;
+    float: left;
+    margin-top: 130px;
+    margin-left: 250px ;
+    
+}
+.left-content img{
+    width: 180%;
+}
+
+.right-content h2{
+    color: #253048;
+    font-size: 28px;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 20px;
+    line-height: 1.38em;
+    font-weight: 400;
+    box-sizing: inherit;
+    font-family: "Alegreya";
+}
+.right-content h3{
+  font-family: "Dancing Script";
+  font-weight: normal;
+  opacity: 1;
+  visibility: visible;
+  color: #c1ab84 !important;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.right-content p{
+  font: weight 400px;;
+  color: #686868;
+  font-family: "AlegreyaSans-Regular";
+  font-size: 18px;
+  box-sizing: inherit;
+  line-height: 1.86em;
+  margin-bottom: 0;
+}
+
+.icon-list{
+    margin-top: 60px;
+}
+.icon-list p{
+    margin-bottom: 30px;
+}
+.right-content i{
+    float: left;
+    width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  line-height: 52px;
+  font-size: 24px;
+  top: 2px;
+  color: #fff;
+  background: #aaa;
+  background-color: #c1ab84 !important;
+  margin-right: 10px;
+  text-align: center;
+}
+.review{
+    height: auto;
+    float: left;
+    background-position: center center;
+    background-color: #f8f8f8;
+
+}
+.left-content-rev{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.right-content-rev{
+    width: 40%;
+    float: left;
+    margin-top: 120px;
+    margin-left: 100px ;
+    
+}
+.right-content-rev img{
+    width: 100%;
+}
+
+.left-content-rev h2{
+    color: #253048;
+    font-size: 28px;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 20px;
+    line-height: 1.38em;
+    font-weight: 400;
+    box-sizing: inherit;
+    font-family: "Alegreya";
+}
+.left-content-rev h3{
+  font-family: "Dancing Script";
+  font-weight: normal;
+  opacity: 1;
+  visibility: visible;
+  color: #c1ab84 !important;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.left-content-rev p{
+  font: weight 400px;;
+  color: #686868;
+  font-family: "AlegreyaSans-Regular";
+  font-size: 18px;
+  box-sizing: inherit;
+  line-height: 1.86em;
+  margin-bottom: 0;
+}
+.icon-list-rev{
+    margin-top: 30px;
+}
+.icon-list-rev p{
+    margin-bottom: 10px;
+}
+.icon-list-rev i{
+    float: left;
+    color: #c1ab84;
+    top: 2px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 22px;
+  text-align: center;
+  height: 22px;
+  enable-background: 100%;
+  line-height: 30px;
+  font-size: 20px;
+}
+.about-photo img{
+    padding-top: 120px !important;
+    height: 600px;
+    width: 1366px;
+
+}
+.Menu h2{
+  text-align: center;
+  color: #253048;
+  font-size: 36px;
+  opacity: 1;
+  visibility: visible;
+  font-family: "Alegreya";
+  line-height: 1.38em;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.Menu h3{
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: normal;
+  opacity: 1;
+  visibility: visible;
+  color: #c1ab84 !important;
+  font-size: 28px;
+}
+.Menu img{
+    width: 80%;
+    margin-left: 40px;
+}
+.Meals h2{
+    font-size: 25px;
+
+}
+.Meals{
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+}
+.Meals p{
+    width: 80%;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #686868;
+  text-align: center;
+}
+.Menu button{
+ margin-top: 100px;
+ margin-left: 42%;
+  text-transform: none;
+  font-size: 16px;
+  opacity: 1;
+  visibility: visible;
+  font-family: "Alegreya Sans";
+  background-color: #c1ab84;
+  overflow: hidden;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  transition: all .2s ease-in-out !important;
+  height: auto;
+  line-height: 1.3rem;
+  padding: 11px 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  border: 2px solid transparent;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+.location h2{
+    color: #253048;
+  font-size: 36px;
+  opacity: 1;
+  visibility: visible;
+  font-family: "Alegreya";
+  line-height: 1.38em;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-left: 40px;
+}
+.location p{
+    width: 80%;
+    margin-left: 10px;
+    padding-top: 18px;
+    font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #686868;
+  padding-bottom: 10px;
+}
+.icon-list-loc{
+    margin-top: 40px;
+}
+.icon-list-loc i{
+    float: left;
+    width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  line-height: 36px;
+  font-size: 18px;
+  top: 2px;
+  color: #fff;
+  background: #aaa;
+  background-color: #c1ab84 !important;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.left-content-loc{
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.right-content-loc{
+    width: 30%;
+    float: left;
+    margin-top: 120px;
+    margin-left: 120px ;
+    
+}
+
+.float-item{
+    float: left;
+    width: 20%;
+    padding-top: 100px;
+    padding-inline: 10px;
+}
+.quick-links{
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.footer{
+    float: left;
+    width: 100%;
+    background-color: #403d38;
+
+}
+.footer p,.footer a ,.footer li{
+    color: #969696;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-family: "Alegreya Sans";
+}
+.footer h3{
+    color: #FFF;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer i{
+    padding-right: 15px;
+}
+.footer a:hover{
+    color: #FFF;
+}
+.footer li{
+    padding: 10px 0px;
+}
+.border-bottom{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.float-item .map{
+    position: relative;
+}
+
+.footer .overlay{
+    background-image: url(../img/contact-details-map.png);
+    background-position: center;
+       background-repeat: no-repeat;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.1;
+    background-color: #403d38;
+}
+.social-media-links{
+    float: left;
+    padding-top: 70px;
+    background-color: #353330;
+    width: 100%;
+}
+.social-contents{
+    float: left;
+    margin-left: 35%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.social-contents p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social-contents a{
+    text-align: center;
+ background-color: #484540;
+    color: #8c8a86;
+    height: 60px;
+  width: 60px;
+  line-height: 60px;
+  font-size: 25px;
+  border-radius: 100%;
+  text-align:center;
+  display: inline-block;
+
+  margin-right: 5px;
+  background: rgba(0,0,0,0.08);
+  transition: color .3s, background-color .3s, border-color .3s;
+  overflow: hidden;
+}
+ .social-contents a:hover{
+    background-color: #0e2c6d;
+ }
+
+
+    
+ 
